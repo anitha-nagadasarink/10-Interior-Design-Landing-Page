@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1024px) {
+  nav ul li{
+    margin-right: 50px;
+  }  
+}
+
+@media screen and (max-width: 991px){
+  .nav-items {
+    display: none;
+  }
+  .nav-items.active {
+    display: block;
+    position: absolute;
+    content: ' ';
+    top: 120px;
+    width: 200px;
+    right: 0;
+    background-color: #fff;
+    z-index: 999;
+  }
+  nav ul li {
+    padding: 0 10px 20px; 
+    color: #000;
+  }
+  .nav-items.active li{
+    display: block;
+  }
+  
+nav ul{
+  display: none;
+}
+
+  nav a .fa-bars {
+    display: block;
+  }
+}
